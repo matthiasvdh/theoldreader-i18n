@@ -26,7 +26,7 @@ nl:
       signed_in: "Met succes aangemeld."
       signed_out: "Met succes afgemeld."
     passwords:
-      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructie hoe u uw  wachtwoord opnieuw moet instellen."
+      send_instructions: "U ontvangt binnen enkele ogenblikken een e-mail met instructies hoe u uw wachtwoord opnieuw moet instellen."
       updated: "Uw wachtwoord is met succes veranderd. U bent nu ingelogd."
       updated_not_active: "Uw wachtwoord is met succes veranderd."
       send_paranoid_instructions: "Als uw e-mailadres in onze database aanwezig is, zult u een wachtwoord herstel-link per e-mail toegestuurd krijgen."
@@ -99,7 +99,7 @@ nl:
       register: "Registreren"
       password: "Wachtwoord vergeten?"
       change_password: "Verander wachtwoord"
-      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze  <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacy beleid</a>"
+      tos: "Door u te registeren of aan te melden, gaat u akkoord met onze <a href='%{tos}' target='_blank' rel='noopener noreferrer'>Servicevoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>Privacybeleid</a>"
       social_register: "U kunt ook uw %{google} of %{facebook} accounts gebruiken om u te registeren."
     welcome:
       - "Welkome bij <span class='highlight'>de ultieme social RSS reader</span> voor het Open Web. Lees, deel en discussieer. Zorg dat u niets mist."
@@ -113,16 +113,16 @@ nl:
       title2: "Hoe vind iki mijn vrienden?"
       text2: "Maak verbinding met uw account bij Facebook of Google en wij kijken wie daar ook is (wij slaan nooit enige contactgegevens van uw Facebook of Google account op)."
       title3: "Hebben jullie een mobiele app?"
-      text3_pre_link: "Ja! Onze geweldige ontwikkeaars community heeft apps gebouwd voor ongeveer elk platform. We hebben een zeer goede "
+      text3_pre_link: "Ja! Onze geweldige ontwikkelaars community heeft apps gebouwd voor ongeveer elk platform. We hebben een zeer goede "
       text3_link1: "API"
       text3_between_links: " die het iedereen mogelijk maakt een app te schrijven voor The Old Reader. Kijk op onze "
       text3_link2: "apps pagina"
       text3_post_link: " om alle beschikbare apps te zien."
       title4: "Gaan jullie junk zenden naar mijn sociale netwerken of mijn links stelen?"
-      text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige control over wat u deelt met uw sociale netwerken. als u iets deelt, krijgen uw frienden een directe link naar uw bericht. Niet een link naar onze website."
+      text4: "Absoluut niet. We geloven niet dat dat de juiste manier van handelen is. U heeft volledige controle over wat u deelt met uw sociale netwerken. Als u iets deelt, krijgen uw vrienden een directe link naar uw bericht. Niet een link naar onze website."
       title5: "Wat kost deze dienstverlening?"
       text5: "The Old Reader is gratis te gebruiken tot %{free_count} feeds. Wij hebben ook een <u>premium versie</u> voor $%{price}/maand die de volgende functies heeft:"
-    sponsorship_opportunities: "Sponsorschap mogelijkheden zijn nu beschikbaar. kom meer te weten."
+    sponsorship_opportunities: "Sponsorschap mogelijkheden zijn nu beschikbaar. Kom meer te weten."
   help: "Hulp nodig?"
   user:
     profile: "Profiel"
@@ -249,7 +249,7 @@ nl:
     friends: "Zoek vrienden"
     commented: "Met reacties"
     tos: "Voorwaarden dienstverlening"
-    privacy: "Privacy beleid"
+    privacy: "Privacybeleid"
     trending: "Trendy"
     recommended: "Aanbevolen"
     donate: "Doneer"
@@ -353,8 +353,8 @@ nl:
         account: "Uw account: <strong>%{username}</strong>"
   import:
     title: "Importeren"
-    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om abonnementen te importeren vanuit Google Reader</b><br />Wij slaan uw inlog gegevens niet op. Account informatie wordt alleen gebruikt om de abonnementen te verkrijgen."
-    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de  Google Reader instellingen pagina.<br />Gebruik  <b>subscriptions.xml</b> van uw takeout zip-archief."
+    alert: "<b>Vul uw Google's gebruikersnaam en wachtwoord in om abonnementen te importeren vanuit Google Reader</b><br />Wij slaan uw inloggegevens niet op. Account-informatie wordt alleen gebruikt om de abonnementen te verkrijgen."
+    opml: "<b>Kies een OPML-bestand</b><br />U kunt dit verkrijgen van de Google Reader instellingen pagina.<br />Gebruik <b>subscriptions.xml</b> van uw takeout zip-archief."
     email: "E-mail"
     password: "Wachtwoord"
     import: "Importeren"
@@ -430,7 +430,7 @@ nl:
       body: |
         Hallo, %{followed}!
 
-        %{name} heeft een volgverzoek gestuurd voor uw gedeelde berichten op The Old Reader.  Klik hier om het volgverzoek te accepteren of te weigeren:
+        %{name} heeft een volgverzoek gestuurd voor uw gedeelde berichten op The Old Reader. Klik hier om het volgverzoek te accepteren of te weigeren:
         %{accept_request}
 
         Als u niet langer deze notificaties wilt ontvangen kunt u die uitzetten op het "Social" tabblad van uw Instellingen pagina.
@@ -445,7 +445,7 @@ nl:
       body: |
         Welkom %{name},
 
-        U kunt bijna The old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
+        U kunt bijna The Old Reader gaan gebruiken. Bevestig eenvoudigweg uw e-mail door op de link hieronder te klikken:
         %{link}
 
         Laat ons weten of u enige assistentie nodig heeft. Wij help u dan graag.
@@ -581,18 +581,18 @@ nl:
         title: "Feeds toevoegen"
         p1: "Uw nieuwe account bij The Old Reader is nog leeg, dus het eerste dat u nu moet doen is wat feeds toevoegen."
         img1: "Gebruik de 'Voeg een abonnement toe' knop om u te abonneren op een feed. Als u een webpagina URL invult inplaats van een directe feed URL, zullen we de eerste RSS-feed van die pagina automatisch toevoegen."
-        img2: "Als u migreert van Google Reader of elke andere RSS software dat abonnementen kan exporteren naar een OPML-bestand, kunt u de  'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
+        img2: "Als u migreert van Google Reader of elke andere RSS software dat abonnementen kan exporteren naar een OPML-bestand, kunt u de 'Import' functie gebruiken om al uw feeds toe te voegen. We zullen zelfs al uw feed maps overzetten zodat u zich onmiddellijk thuis zal voelen in de interface."
       organize:
         title: "Organiseren van feeds"
         img1: "U kunt feeds en mappen verslepen met de muis om hun positie te veranderen. Het aanmaken van een nieuwe map gaat makkelijk door het slepen van een feed naar een lege plek onder uw laatste map. Lege mappen worden automatisch verwijderd."
         img2: "Dubbelklik eenvoudigweg op een feed of map om deze te hernoemen."
-        img2_p2: "Het is niet mogelijk de standaard map  ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
+        img2_p2: "Het is niet mogelijk de standaard map ('Subscriptions') een andere naam te geven, maar u kunt al uw feeds er uit vandaan halen en in andere mappen plaatsen. Dan zal deze standaard map vanzelf verdwijnen."
       read:
         title: "Berichten lezen"
         img1: "Kies wat u wilt lezen uit het menu. u kunt op een map klikken om alle feeds in die map te lezen."
-        img2: "Het navigatie menu laat u naar het volgende of vorige  bericht te springen met een enkele muisklik. U kunt ook overschakelen naar  'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
+        img2: "Het navigatie menu laat u naar het volgende of vorige bericht te springen met een enkele muisklik. U kunt ook overschakelen naar 'Lijstweergave' dat alle berichten laat inklappen, u de kopteksten kunt doornemen en alleen die laat uitklappen die u wilt lezen."
         img3: "U kunt ook sneltoetsen gebruiken om te navigeren. Druk op '?' of 'h' om de lijst te zien."
-        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Vind-ik-Leuk' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw  'Leuk gevonden' map gaan."
+        img4_p1: "Er staan actieknoppen onder elk bericht. Als u op de 'Vind-ik-Leuk' knop drukt, verschijnt uw naam in de lijst van gebruikers die dit bericht ook liken. Het bericht zal ook naar uw 'Leuk gevonden' map gaan."
         img4_p2: "Als u verkiest een bericht te delen, zullen al uw contacten dit onmiddellijk zien. U kunt uw gedeelde berichten op uw Facebook tijdslijn zetten (bezoek Instellingen om dat in te schakelen)."
       discuss:
         title: "Berichten bediscussiëren"
@@ -750,8 +750,8 @@ nl:
       cancelled_line_1: 'Uw doorlopende betaling is geannuleerd. U heeft betaald tot <b>%{expires_date}</b> en uw premium account zal actief blijven tot dat tijdstip.'
       cancelled_line_2: 'Vul de betalingsinformatie hieronder in om de nieuwe doorlopende betaling te starten. <a href="mailto:support@theoldreader.com">Contacteer ons</a> als u enige assistentie nodig heeft of vragen hebt.'
       need_help: "Hulp nodig? E-mail ons op"
-    tos: "Ik ga akkoord met de <a href='%{tos}' target='_blank' rel='noopener noreferrer'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>privacy beleid</a>"
-    tos_error: "U moet akkoord gaan met onze dienstverleningsvoorwaarden en en privacy beleid"
+    tos: "Ik ga akkoord met de <a href='%{tos}' target='_blank' rel='noopener noreferrer'>dienstverleningsvoorwaarden</a> en <a href='%{privacy}' target='_blank' rel='noopener noreferrer'>privacybeleid</a>"
+    tos_error: "U moet akkoord gaan met onze dienstverleningsvoorwaarden en privacybeleid"
     stripe: "De betaling wordt veilig afgehandeld via <a href='http://stripe.com' target='_blank' rel='noopener noreferrer'>Stripe</a>."
     submit: "Bijwerken account"
     cancel: "Annuleer mijn betalingen"
@@ -781,7 +781,7 @@ nl:
           body: |
             Hallo %{name},
 
-            Dank u voor uw steun aan The old Reader.
+            Dank u voor uw steun aan The Old Reader.
 
             Wij willen u laten weten, dat een poging om uw abonnement op onze premium service toe betalen via uw creditkaart is mislukt.
 
@@ -929,8 +929,8 @@ nl:
     step_3_title: "Snelstart: Vinden en volgen van vrienden"
     step_3_text: "Door verbinding te maken met vrienden kunt u berichten delen en met hen becommentariëren. U kunt op naam zoeken of via Facebook of Google."
     step_4_title: "Snelstart: Delen"
-    step_4_text: "Als u een bericht deelt in The Old Reader wordt het bericht verzonden naar alle gebruikers die u volgen. zodra een bericht wordt gedeeld krijgen uw vrienden een notificatie en kunt u gezamenlijk het bericht becommentariëren."
+    step_4_text: "Als u een bericht deelt in The Old Reader wordt het bericht verzonden naar alle gebruikers die u volgen. Zodra een bericht wordt gedeeld krijgen uw vrienden een notificatie en kunt u gezamenlijk het bericht becommentariëren."
     step_5_title: "Snelstart: Importeren van abonnementen"
-    step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige  platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
+    step_5_text: "Als u bij ons komt van een andere RSS reader kunt u de berichten van het vorige platform exporteren en datzelfde bestand gemakkelijk importeren in The Old Reader."
     step_6_title: "Snelstart: Ga voor Premium!"
     step_6_text: "<b>Upgrade naar premium!</b> We bieden een betaalde premium versie aan van The Old Reader die u ervaring hiermee op belangrijke wijze verbeterd. Onze premium dienst biedt de volgende belangrijke voordelen aan:"
